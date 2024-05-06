@@ -3,7 +3,7 @@ public class Curso {
     private string [] estudiantes;
 
     public Curso() {
-        this.nombreCurso =¨¨;
+        this.nombreCurso = ¨¨ ;
         this.estudiantes = ¨¨;
     }
 

@@ -51,18 +51,16 @@ public class Estudiante {
     {
         double suma=0;
 
-        for(int i=0; i<calificacionesP.length;i++) {
+        for(int i=0; i<validos;i++) {
 suma= suma+calificacionesP[i];
         }
-        double promedio= suma/calificacionesP.length;
+        double promedio= suma/validos;
         return promedio;
     }
-    private void imprimirInformacion (String nombre_p, int edad_p, double calificacionP[])
+    private String imprimirInformacion (String nombre_p, int edad_p, double calificacionP[])
     {
-        System.out.println("Nombre: "+ nombre_p);
-        System.out.println("Edad: "+edad_p);
-       double promedio= obtenerPromedio(calificacionP);
-        System.out.println("Promedio: "+ promedio);
+
+        return ("Nombre: " + nombre_p + "\n" + "Edad: " + edad_p+ "\n" + "Promedio: " + obtenerPromedio(calificacionP) + "\n");
 
     }
 }
