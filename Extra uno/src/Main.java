@@ -3,12 +3,12 @@ import ejercicio2.Productos;
 import ejercicio3.Personas;
 
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-
 
         int ejercicio;
         Scanner scan = new Scanner(System.in);
